@@ -1,0 +1,11 @@
+*.tlog
+*.sdf
+*.sln
+*.vcxproj
+*.filters
+CodeOfSec/*
+Experiments/*
+exceptions/
+*.cd
+*.idb
+OOPWork/Debug/
