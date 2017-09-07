@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{0667a86d-243f-47f5-a409-d488e714f106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FX">
+      <UniqueIdentifier>{630f01a7-29e9-4269-b075-40833470f4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{74b6b752-18aa-4a52-8a15-cd1f8f9bf2e7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Common\Camera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\d3dApp.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\d3dUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\DDSTextureLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\dxerr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GameTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\GeometryGenerator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\LightHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\MathHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\TextureMgr.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\Waves.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Common\xnacollision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadM3d.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshGeometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshViewDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ssao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\Camera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\d3dApp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\d3dUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\d3dx11effect.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\DDSTextureLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\dxerr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GameTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\GeometryGenerator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\LightHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\MathHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\TextureMgr.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\Waves.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Common\xnacollision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicModel.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadM3d.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshGeometry.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ssao.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Common\d3dUtil.cpp.bak">
+      <Filter>Common</Filter>
+    </None>
+    <None Include="..\..\Common\d3dUtil.h.bak">
+      <Filter>Common</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="FX\Basic_MeshView.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\BuildShadowMap_MeshView.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\DebugTexture_MeshView.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\LightHelper_MeshView.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\NormalMap_MeshView.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Sky_MeshView.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\Ssao_MeshView.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SsaoBlur_MeshView.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+    <FxCompile Include="FX\SsaoNormalDepth_MeshView.fx">
+      <Filter>FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\bricks.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\bricks_nmap.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\desertcube1024.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\floor.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\floor_nmap.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\grasscube1024.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar01_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar01_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar02_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar02_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar03_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar03_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar05_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar05_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar06_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pillar06_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\rock01_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\rock01_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\snowcube1024.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\stones.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\stones_nmap.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\sunsetcube1024.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\templeBase01_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\templeBase01_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\templeBase02_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\templeBase02_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\templeBase03_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\templeBase03_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\templeStairs_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\templeStairs_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\tree01-bark_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\tree01-bark_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\tree01-leaves_diffuse.dds">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\tree01-leaves_normal.dds">
+      <Filter>Textures</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
